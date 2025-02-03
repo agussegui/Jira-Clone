@@ -17,8 +17,11 @@ export function generateInviteCode(length: number){
 
 
 export function snakeCasetoTitleCase(str: string){
-  return 
-    str.toLowerCase() // Convierte toda la cadena a minúsculas.
-    .replace(/_/g, " ")  // Reemplaza todos los guiones bajos (_) por espacios.
-    .replace(/\b\w/g, (char) => char.toUpperCase()) // Convierte la primera letra de cada palabra a mayúscula.
+  return str
+  .toLowerCase() 
+  .replace(/_/g, " ")  
+  .replace(/\b\w/g, (char) => char.toUpperCase()) 
 }
+// Convierte toda la cadena a minúsculas.
+// Reemplaza todos los guiones bajos (_) por espacios.
+// Convierte la primera letra de cada palabra a mayúscula.
