@@ -1,0 +1,1 @@
+export const AUTH_COOKIE = "agd-jira-clone-session";
