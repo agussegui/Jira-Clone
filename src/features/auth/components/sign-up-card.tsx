@@ -13,6 +13,7 @@ import Link from "next/link";
 import { Form, FormControl, FormField, FormItem, FormMessage } from "@/components/ui/form";
 import { registerSchema } from "../schemas";
 import { useRegister } from "../api/use-register";
+import { signUpWithGithub } from "@/lib/oauth";
 
 
 export const SignUpCard = () => {
@@ -121,6 +122,7 @@ export const SignUpCard = () => {
             </div>
             <CardContent className="p-7 flex gap-y-4 flex-col">
                 <Button
+                    onClick={() => signUpWithGithub()}
                     disabled={isPending}
                     variant="secondary"
                     size="lg"
