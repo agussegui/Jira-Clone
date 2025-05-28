@@ -11,6 +11,9 @@ const inter = Inter({subsets: ["latin"]});
 export const metadata: Metadata = {
   title: "Jira Clon",
   description: "Adminstracion de Proyectos",
+  icons: {
+    icon: "/logo.svg", // o "/favicon.png" si usás otro formato
+  },
 };
 
 export default function RootLayout({
