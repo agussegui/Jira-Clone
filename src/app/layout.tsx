@@ -9,7 +9,7 @@ import { Toaster } from "@/components/ui/sonner";
 const inter = Inter({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-  title: "Jira Clon",
+  title: "Task Manager",
   description: "Adminstracion de Proyectos",
   icons: {
     icon: "/logo.svg", // o "/favicon.png" si usás otro formato
