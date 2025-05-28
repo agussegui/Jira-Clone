@@ -1,5 +1,4 @@
 "use client"
-import {FcGoogle} from "react-icons/fc";
 import {FaGithub} from "react-icons/fa";
 import {z} from "zod"
 import { useForm } from "react-hook-form";
@@ -90,15 +89,6 @@ export const SignInCard = () => {
                 <DottedSeparator/>
             </div>
             <CardContent className="p-7 flex gap-y-4 flex-col">
-                <Button
-                    disabled={isPending}
-                    variant="secondary"
-                    size="lg"
-                    className="w-full"
-                >
-                    <FcGoogle className="mr-2 size-5"/>
-                    Iniciar con Google
-                </Button>
                 <Button
                     onClick={() => signUpWithGithub()}
                     disabled={isPending}
