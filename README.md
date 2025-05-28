@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# JIRA-CLONE
 
-## Getting Started
+_Empower Your Team, Streamline Project Success_
 
-First, run the development server:
+![last-commit](https://img.shields.io/github/last-commit/agussegui/Jira-Clone?style=flat&logo=git&logoColor=white&color=0080ff)
+![repo-top-language](https://img.shields.io/github/languages/top/agussegui/Jira-Clone?style=flat&color=0080ff)
+![repo-language-count](https://img.shields.io/github/languages/count/agussegui/Jira-Clone?style=flat&color=0080ff)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 🚀 Built with:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+![JSON](https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white)
+![Markdown](https://img.shields.io/badge/Markdown-000000.svg?style=flat&logo=Markdown&logoColor=white)
+![npm](https://img.shields.io/badge/npm-CB3837.svg?style=flat&logo=npm&logoColor=white)
+![PostCSS](https://img.shields.io/badge/PostCSS-DD3A0A.svg?style=flat&logo=PostCSS&logoColor=white)
+![Hono](https://img.shields.io/badge/Hono-E36002.svg?style=flat&logo=Hono&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=flat&logo=JavaScript&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1.svg?style=flat&logo=Zod&logoColor=white)
+![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?style=flat&logo=ESLint&logoColor=white)
+![date-fns](https://img.shields.io/badge/datefns-770C56.svg?style=flat&logo=date-fns&logoColor=white)
+![React Hook Form](https://img.shields.io/badge/React%20Hook%20Form-EC5990.svg?style=flat&logo=React-Hook-Form&logoColor=white)
+![Appwrite](https://img.shields.io/badge/Appwrite-FD366E.svg?style=flat&logo=Appwrite&logoColor=white)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📚 Table of Contents
 
-## Learn More
+- [Overview](#overview)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Testing](#testing)
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔍 Overview
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**Jira-Clone** is a powerful developer tool designed to streamline project management and enhance team collaboration. Built with **Next.js** and **Tailwind CSS**, it offers a full-featured platform to manage tasks, projects, and user interactions.
 
-## Deploy on Vercel
+### Why Jira-Clone?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project aims to simplify project management with robust, developer-friendly features:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- 🎨 **Next.js Configuration** – Optimized performance and seamless integration.
+- 🌈 **Tailwind CSS Integration** – Rapid styling with dark mode and custom themes.
+- 📋 **Task Management System** – RESTful API endpoints to manage tasks.
+- 🔒 **User Authentication** – Secure login/registration with OAuth support.
+- 🏢 **Workspace Management** – Easily create workspaces and manage members.
+- 📊 **Analytics Dashboard** – Visualize metrics for better decisions.
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Prerequisites
+
+- **Programming Language:** TypeScript
+- **Package Manager:** npm
+
+### ⚙️ Installation
+
+1. **Clone the repository:**
+
+   ```sh
+   git clone https://github.com/agussegui/Jira-Clone
