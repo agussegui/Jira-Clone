@@ -9,7 +9,7 @@ import tasks from "@/features/tasks/server/route"
 
 const app = new Hono().basePath("/api");
 
-app.use('*', cors({
+app.use('/api/*', cors({
   origin: process.env.NEXT_PUBLIC_APP_PUBLIC!,
   allowHeaders: ['Content-Type', 'Authorization'],
 }));
